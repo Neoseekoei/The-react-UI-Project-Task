@@ -1,0 +1,169 @@
+
+
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+ 
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+  
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+
+}
+
+.navbar a:hover {
+  color: #ff0000;
+}
+
+.hero {
+background-color: navy;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: lightgreen;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.hero button {
+  background-color: black;
+  color: whitesmoke;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.aboutus-heading{
+  text-align: center;
+  
+}
+
+.wisdom{
+  text-align: center;
+
+  width: 50%;
+  padding-left: 25%;
+}
+
+.start{
+  margin-left: 47%;
+}
+
+.services-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.services-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.service {
+  max-width: 250px;
+}
+
+.service img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.service h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+}
+
+contact-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contactus-heading{
+  text-align: center;
+}
